@@ -1,0 +1,83 @@
+@media (max-width: 768px) {
+    /* Encabezado */
+    .encabezado{
+        min-height: auto;
+        gap: 10px;
+    }
+    .container{
+        height: auto;
+        flex-wrap: wrap;
+        align-items: center;
+        padding: 10px 0;
+    }
+    .logo{
+        width: 120px;
+        height: 60px;
+        padding-left: 15px;
+    }
+    .login{
+        width: 80px;
+        height: 30px;
+        margin: 0 15px 0 0;
+        font-size: 13px;
+    }
+
+    /* Los 7 links bajan a una fila con scroll horizontal */
+    .menu-btn{
+    display: block;
+    margin-left: auto;
+    margin-right: 10px;
+    }
+    .links{
+        order: 3;
+        width: 100%;
+        height: auto;
+        justify-content: flex-start;
+        overflow-x: auto;
+    }
+    .links a{
+        width: auto;
+        height: auto;
+        margin: 10px 15px;
+        font-size: 14px;
+        white-space: nowrap;
+    }
+
+    /* Hero: texto arriba, imagen abajo */
+    .hero{
+        flex-direction: column;
+        text-align: center;
+        padding: 30px 20px;
+        gap: 30px;
+    }
+    .hero-texto{
+        max-width: 100%;
+        margin-left: 0;
+        align-items: center;
+    }
+    h1{
+        font-size: 30px;
+    }
+    .texto{
+        font-size: 16px;
+    }
+    .boton-descarga{
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+        margin-top: 10px;
+    }
+    .descargar{
+        width: 100%;
+        max-width: 230px;
+    }
+    .texto2{
+        margin-top: 0;
+        font-size: 13px;
+    }
+    .imagen1{
+        max-width: 100%;
+        width: 100%;
+    }   
+    
+}
